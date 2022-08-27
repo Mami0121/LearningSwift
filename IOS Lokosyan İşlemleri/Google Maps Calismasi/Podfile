@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Google Maps Calismasi' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Google Maps Calismasi
+pod 'GoogleMaps'
+pod 'GooglePlaces' 
+
+  target 'Google Maps CalismasiTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Google Maps CalismasiUITests' do
+    # Pods for testing
+  end
+
+end

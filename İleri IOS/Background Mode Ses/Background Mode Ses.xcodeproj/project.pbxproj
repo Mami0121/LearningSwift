@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3693A3128958168006EE6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693A3028958168006EE6A6 /* AppDelegate.swift */; };
+		D3693A3328958168006EE6A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693A3228958168006EE6A6 /* SceneDelegate.swift */; };
+		D3693A3528958168006EE6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693A3428958168006EE6A6 /* ViewController.swift */; };
+		D3693A3828958168006EE6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3693A3628958168006EE6A6 /* Main.storyboard */; };
+		D3693A3A2895816B006EE6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3693A392895816B006EE6A6 /* Assets.xcassets */; };
+		D3693A3D2895816B006EE6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3693A3B2895816B006EE6A6 /* LaunchScreen.storyboard */; };
+		D3693A482895816B006EE6A6 /* Background_Mode_SesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693A472895816B006EE6A6 /* Background_Mode_SesTests.swift */; };
+		D3693A522895816B006EE6A6 /* Background_Mode_SesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693A512895816B006EE6A6 /* Background_Mode_SesUITests.swift */; };
+		D3693A542895816B006EE6A6 /* Background_Mode_SesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693A532895816B006EE6A6 /* Background_Mode_SesUITestsLaunchTests.swift */; };
+		D3693A61289582D6006EE6A6 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3693A60289582D6006EE6A6 /* music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3693A442895816B006EE6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3693A2528958168006EE6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3693A2C28958168006EE6A6;
+			remoteInfo = "Background Mode Ses";
+		};
+		D3693A4E2895816B006EE6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3693A2528958168006EE6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3693A2C28958168006EE6A6;
+			remoteInfo = "Background Mode Ses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3693A2D28958168006EE6A6 /* Background Mode Ses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Background Mode Ses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3693A3028958168006EE6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3693A3228958168006EE6A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3693A3428958168006EE6A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3693A3728958168006EE6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3693A392895816B006EE6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3693A3C2895816B006EE6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3693A3E2895816B006EE6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3693A432895816B006EE6A6 /* Background Mode SesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background Mode SesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3693A472895816B006EE6A6 /* Background_Mode_SesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Mode_SesTests.swift; sourceTree = "<group>"; };
+		D3693A4D2895816B006EE6A6 /* Background Mode SesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background Mode SesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3693A512895816B006EE6A6 /* Background_Mode_SesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Mode_SesUITests.swift; sourceTree = "<group>"; };
+		D3693A532895816B006EE6A6 /* Background_Mode_SesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Mode_SesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3693A60289582D6006EE6A6 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3693A2A28958168006EE6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3693A402895816B006EE6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3693A4A2895816B006EE6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3693A2428958168006EE6A6 = {
+			isa = PBXGroup;
+			children = (
+				D3693A2F28958168006EE6A6 /* Background Mode Ses */,
+				D3693A462895816B006EE6A6 /* Background Mode SesTests */,
+				D3693A502895816B006EE6A6 /* Background Mode SesUITests */,
+				D3693A2E28958168006EE6A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3693A2E28958168006EE6A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3693A2D28958168006EE6A6 /* Background Mode Ses.app */,
+				D3693A432895816B006EE6A6 /* Background Mode SesTests.xctest */,
+				D3693A4D2895816B006EE6A6 /* Background Mode SesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3693A2F28958168006EE6A6 /* Background Mode Ses */ = {
+			isa = PBXGroup;
+			children = (
+				D3693A3028958168006EE6A6 /* AppDelegate.swift */,
+				D3693A3228958168006EE6A6 /* SceneDelegate.swift */,
+				D3693A3428958168006EE6A6 /* ViewController.swift */,
+				D3693A3628958168006EE6A6 /* Main.storyboard */,
+				D3693A392895816B006EE6A6 /* Assets.xcassets */,
+				D3693A3B2895816B006EE6A6 /* LaunchScreen.storyboard */,
+				D3693A3E2895816B006EE6A6 /* Info.plist */,
+				D3693A60289582D6006EE6A6 /* music.mp3 */,
+			);
+			path = "Background Mode Ses";
+			sourceTree = "<group>";
+		};
+		D3693A462895816B006EE6A6 /* Background Mode SesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3693A472895816B006EE6A6 /* Background_Mode_SesTests.swift */,
+			);
+			path = "Background Mode SesTests";
+			sourceTree = "<group>";
+		};
+		D3693A502895816B006EE6A6 /* Background Mode SesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3693A512895816B006EE6A6 /* Background_Mode_SesUITests.swift */,
+				D3693A532895816B006EE6A6 /* Background_Mode_SesUITestsLaunchTests.swift */,
+			);
+			path = "Background Mode SesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3693A2C28958168006EE6A6 /* Background Mode Ses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3693A572895816B006EE6A6 /* Build configuration list for PBXNativeTarget "Background Mode Ses" */;
+			buildPhases = (
+				D3693A2928958168006EE6A6 /* Sources */,
+				D3693A2A28958168006EE6A6 /* Frameworks */,
+				D3693A2B28958168006EE6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Background Mode Ses";
+			productName = "Background Mode Ses";
+			productReference = D3693A2D28958168006EE6A6 /* Background Mode Ses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3693A422895816B006EE6A6 /* Background Mode SesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3693A5A2895816B006EE6A6 /* Build configuration list for PBXNativeTarget "Background Mode SesTests" */;
+			buildPhases = (
+				D3693A3F2895816B006EE6A6 /* Sources */,
+				D3693A402895816B006EE6A6 /* Frameworks */,
+				D3693A412895816B006EE6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3693A452895816B006EE6A6 /* PBXTargetDependency */,
+			);
+			name = "Background Mode SesTests";
+			productName = "Background Mode SesTests";
+			productReference = D3693A432895816B006EE6A6 /* Background Mode SesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3693A4C2895816B006EE6A6 /* Background Mode SesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3693A5D2895816B006EE6A6 /* Build configuration list for PBXNativeTarget "Background Mode SesUITests" */;
+			buildPhases = (
+				D3693A492895816B006EE6A6 /* Sources */,
+				D3693A4A2895816B006EE6A6 /* Frameworks */,
+				D3693A4B2895816B006EE6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3693A4F2895816B006EE6A6 /* PBXTargetDependency */,
+			);
+			name = "Background Mode SesUITests";
+			productName = "Background Mode SesUITests";
+			productReference = D3693A4D2895816B006EE6A6 /* Background Mode SesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3693A2528958168006EE6A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D3693A2C28958168006EE6A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D3693A422895816B006EE6A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3693A2C28958168006EE6A6;
+					};
+					D3693A4C2895816B006EE6A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3693A2C28958168006EE6A6;
+					};
+				};
+			};
+			buildConfigurationList = D3693A2828958168006EE6A6 /* Build configuration list for PBXProject "Background Mode Ses" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3693A2428958168006EE6A6;
+			productRefGroup = D3693A2E28958168006EE6A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3693A2C28958168006EE6A6 /* Background Mode Ses */,
+				D3693A422895816B006EE6A6 /* Background Mode SesTests */,
+				D3693A4C2895816B006EE6A6 /* Background Mode SesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3693A2B28958168006EE6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3693A61289582D6006EE6A6 /* music.mp3 in Resources */,
+				D3693A3D2895816B006EE6A6 /* LaunchScreen.storyboard in Resources */,
+				D3693A3A2895816B006EE6A6 /* Assets.xcassets in Resources */,
+				D3693A3828958168006EE6A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3693A412895816B006EE6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3693A4B2895816B006EE6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3693A2928958168006EE6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3693A3528958168006EE6A6 /* ViewController.swift in Sources */,
+				D3693A3128958168006EE6A6 /* AppDelegate.swift in Sources */,
+				D3693A3328958168006EE6A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3693A3F2895816B006EE6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3693A482895816B006EE6A6 /* Background_Mode_SesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3693A492895816B006EE6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3693A522895816B006EE6A6 /* Background_Mode_SesUITests.swift in Sources */,
+				D3693A542895816B006EE6A6 /* Background_Mode_SesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3693A452895816B006EE6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3693A2C28958168006EE6A6 /* Background Mode Ses */;
+			targetProxy = D3693A442895816B006EE6A6 /* PBXContainerItemProxy */;
+		};
+		D3693A4F2895816B006EE6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3693A2C28958168006EE6A6 /* Background Mode Ses */;
+			targetProxy = D3693A4E2895816B006EE6A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3693A3628958168006EE6A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3693A3728958168006EE6A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3693A3B2895816B006EE6A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3693A3C2895816B006EE6A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3693A552895816B006EE6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3693A562895816B006EE6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3693A582895816B006EE6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Background Mode Ses/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Background-Mode-Ses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3693A592895816B006EE6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Background Mode Ses/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Background-Mode-Ses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3693A5B2895816B006EE6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Background-Mode-SesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Mode Ses.app/Background Mode Ses";
+			};
+			name = Debug;
+		};
+		D3693A5C2895816B006EE6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Background-Mode-SesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Mode Ses.app/Background Mode Ses";
+			};
+			name = Release;
+		};
+		D3693A5E2895816B006EE6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Background-Mode-SesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Background Mode Ses";
+			};
+			name = Debug;
+		};
+		D3693A5F2895816B006EE6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Background-Mode-SesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Background Mode Ses";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3693A2828958168006EE6A6 /* Build configuration list for PBXProject "Background Mode Ses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3693A552895816B006EE6A6 /* Debug */,
+				D3693A562895816B006EE6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3693A572895816B006EE6A6 /* Build configuration list for PBXNativeTarget "Background Mode Ses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3693A582895816B006EE6A6 /* Debug */,
+				D3693A592895816B006EE6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3693A5A2895816B006EE6A6 /* Build configuration list for PBXNativeTarget "Background Mode SesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3693A5B2895816B006EE6A6 /* Debug */,
+				D3693A5C2895816B006EE6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3693A5D2895816B006EE6A6 /* Build configuration list for PBXNativeTarget "Background Mode SesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3693A5E2895816B006EE6A6 /* Debug */,
+				D3693A5F2895816B006EE6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3693A2528958168006EE6A6 /* Project object */;
+}

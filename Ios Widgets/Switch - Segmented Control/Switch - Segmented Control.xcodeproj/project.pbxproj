@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3DF2E71288EACE4002ECA10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2E70288EACE4002ECA10 /* AppDelegate.swift */; };
+		D3DF2E73288EACE4002ECA10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2E72288EACE4002ECA10 /* SceneDelegate.swift */; };
+		D3DF2E75288EACE4002ECA10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2E74288EACE4002ECA10 /* ViewController.swift */; };
+		D3DF2E78288EACE4002ECA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2E76288EACE4002ECA10 /* Main.storyboard */; };
+		D3DF2E7A288EACE7002ECA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2E79288EACE7002ECA10 /* Assets.xcassets */; };
+		D3DF2E7D288EACE7002ECA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2E7B288EACE7002ECA10 /* LaunchScreen.storyboard */; };
+		D3DF2E88288EACE7002ECA10 /* Switch___Segmented_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2E87288EACE7002ECA10 /* Switch___Segmented_ControlTests.swift */; };
+		D3DF2E92288EACE7002ECA10 /* Switch___Segmented_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2E91288EACE7002ECA10 /* Switch___Segmented_ControlUITests.swift */; };
+		D3DF2E94288EACE7002ECA10 /* Switch___Segmented_ControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2E93288EACE7002ECA10 /* Switch___Segmented_ControlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DF2E84288EACE7002ECA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DF2E65288EACE4002ECA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DF2E6C288EACE4002ECA10;
+			remoteInfo = "Switch - Segmented Control";
+		};
+		D3DF2E8E288EACE7002ECA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DF2E65288EACE4002ECA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DF2E6C288EACE4002ECA10;
+			remoteInfo = "Switch - Segmented Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3DF2E6D288EACE4002ECA10 /* Switch - Segmented Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Switch - Segmented Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DF2E70288EACE4002ECA10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3DF2E72288EACE4002ECA10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3DF2E74288EACE4002ECA10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3DF2E77288EACE4002ECA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3DF2E79288EACE7002ECA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DF2E7C288EACE7002ECA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3DF2E7E288EACE7002ECA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DF2E83288EACE7002ECA10 /* Switch - Segmented ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Switch - Segmented ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DF2E87288EACE7002ECA10 /* Switch___Segmented_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Switch___Segmented_ControlTests.swift"; sourceTree = "<group>"; };
+		D3DF2E8D288EACE7002ECA10 /* Switch - Segmented ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Switch - Segmented ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DF2E91288EACE7002ECA10 /* Switch___Segmented_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Switch___Segmented_ControlUITests.swift"; sourceTree = "<group>"; };
+		D3DF2E93288EACE7002ECA10 /* Switch___Segmented_ControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Switch___Segmented_ControlUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DF2E6A288EACE4002ECA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF2E80288EACE7002ECA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF2E8A288EACE7002ECA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DF2E64288EACE4002ECA10 = {
+			isa = PBXGroup;
+			children = (
+				D3DF2E6F288EACE4002ECA10 /* Switch - Segmented Control */,
+				D3DF2E86288EACE7002ECA10 /* Switch - Segmented ControlTests */,
+				D3DF2E90288EACE7002ECA10 /* Switch - Segmented ControlUITests */,
+				D3DF2E6E288EACE4002ECA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DF2E6E288EACE4002ECA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2E6D288EACE4002ECA10 /* Switch - Segmented Control.app */,
+				D3DF2E83288EACE7002ECA10 /* Switch - Segmented ControlTests.xctest */,
+				D3DF2E8D288EACE7002ECA10 /* Switch - Segmented ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DF2E6F288EACE4002ECA10 /* Switch - Segmented Control */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2E70288EACE4002ECA10 /* AppDelegate.swift */,
+				D3DF2E72288EACE4002ECA10 /* SceneDelegate.swift */,
+				D3DF2E74288EACE4002ECA10 /* ViewController.swift */,
+				D3DF2E76288EACE4002ECA10 /* Main.storyboard */,
+				D3DF2E79288EACE7002ECA10 /* Assets.xcassets */,
+				D3DF2E7B288EACE7002ECA10 /* LaunchScreen.storyboard */,
+				D3DF2E7E288EACE7002ECA10 /* Info.plist */,
+			);
+			path = "Switch - Segmented Control";
+			sourceTree = "<group>";
+		};
+		D3DF2E86288EACE7002ECA10 /* Switch - Segmented ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2E87288EACE7002ECA10 /* Switch___Segmented_ControlTests.swift */,
+			);
+			path = "Switch - Segmented ControlTests";
+			sourceTree = "<group>";
+		};
+		D3DF2E90288EACE7002ECA10 /* Switch - Segmented ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2E91288EACE7002ECA10 /* Switch___Segmented_ControlUITests.swift */,
+				D3DF2E93288EACE7002ECA10 /* Switch___Segmented_ControlUITestsLaunchTests.swift */,
+			);
+			path = "Switch - Segmented ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DF2E6C288EACE4002ECA10 /* Switch - Segmented Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DF2E97288EACE7002ECA10 /* Build configuration list for PBXNativeTarget "Switch - Segmented Control" */;
+			buildPhases = (
+				D3DF2E69288EACE4002ECA10 /* Sources */,
+				D3DF2E6A288EACE4002ECA10 /* Frameworks */,
+				D3DF2E6B288EACE4002ECA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Switch - Segmented Control";
+			productName = "Switch - Segmented Control";
+			productReference = D3DF2E6D288EACE4002ECA10 /* Switch - Segmented Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DF2E82288EACE7002ECA10 /* Switch - Segmented ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DF2E9A288EACE7002ECA10 /* Build configuration list for PBXNativeTarget "Switch - Segmented ControlTests" */;
+			buildPhases = (
+				D3DF2E7F288EACE7002ECA10 /* Sources */,
+				D3DF2E80288EACE7002ECA10 /* Frameworks */,
+				D3DF2E81288EACE7002ECA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DF2E85288EACE7002ECA10 /* PBXTargetDependency */,
+			);
+			name = "Switch - Segmented ControlTests";
+			productName = "Switch - Segmented ControlTests";
+			productReference = D3DF2E83288EACE7002ECA10 /* Switch - Segmented ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3DF2E8C288EACE7002ECA10 /* Switch - Segmented ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DF2E9D288EACE7002ECA10 /* Build configuration list for PBXNativeTarget "Switch - Segmented ControlUITests" */;
+			buildPhases = (
+				D3DF2E89288EACE7002ECA10 /* Sources */,
+				D3DF2E8A288EACE7002ECA10 /* Frameworks */,
+				D3DF2E8B288EACE7002ECA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DF2E8F288EACE7002ECA10 /* PBXTargetDependency */,
+			);
+			name = "Switch - Segmented ControlUITests";
+			productName = "Switch - Segmented ControlUITests";
+			productReference = D3DF2E8D288EACE7002ECA10 /* Switch - Segmented ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DF2E65288EACE4002ECA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D3DF2E6C288EACE4002ECA10 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D3DF2E82288EACE7002ECA10 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3DF2E6C288EACE4002ECA10;
+					};
+					D3DF2E8C288EACE7002ECA10 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3DF2E6C288EACE4002ECA10;
+					};
+				};
+			};
+			buildConfigurationList = D3DF2E68288EACE4002ECA10 /* Build configuration list for PBXProject "Switch - Segmented Control" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DF2E64288EACE4002ECA10;
+			productRefGroup = D3DF2E6E288EACE4002ECA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DF2E6C288EACE4002ECA10 /* Switch - Segmented Control */,
+				D3DF2E82288EACE7002ECA10 /* Switch - Segmented ControlTests */,
+				D3DF2E8C288EACE7002ECA10 /* Switch - Segmented ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DF2E6B288EACE4002ECA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2E7D288EACE7002ECA10 /* LaunchScreen.storyboard in Resources */,
+				D3DF2E7A288EACE7002ECA10 /* Assets.xcassets in Resources */,
+				D3DF2E78288EACE4002ECA10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF2E81288EACE7002ECA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF2E8B288EACE7002ECA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DF2E69288EACE4002ECA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2E75288EACE4002ECA10 /* ViewController.swift in Sources */,
+				D3DF2E71288EACE4002ECA10 /* AppDelegate.swift in Sources */,
+				D3DF2E73288EACE4002ECA10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF2E7F288EACE7002ECA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2E88288EACE7002ECA10 /* Switch___Segmented_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF2E89288EACE7002ECA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2E92288EACE7002ECA10 /* Switch___Segmented_ControlUITests.swift in Sources */,
+				D3DF2E94288EACE7002ECA10 /* Switch___Segmented_ControlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DF2E85288EACE7002ECA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DF2E6C288EACE4002ECA10 /* Switch - Segmented Control */;
+			targetProxy = D3DF2E84288EACE7002ECA10 /* PBXContainerItemProxy */;
+		};
+		D3DF2E8F288EACE7002ECA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DF2E6C288EACE4002ECA10 /* Switch - Segmented Control */;
+			targetProxy = D3DF2E8E288EACE7002ECA10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3DF2E76288EACE4002ECA10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DF2E77288EACE4002ECA10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3DF2E7B288EACE7002ECA10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DF2E7C288EACE7002ECA10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DF2E95288EACE7002ECA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3DF2E96288EACE7002ECA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DF2E98288EACE7002ECA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Switch - Segmented Control/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Switch---Segmented-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DF2E99288EACE7002ECA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Switch - Segmented Control/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Switch---Segmented-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3DF2E9B288EACE7002ECA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Switch---Segmented-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Switch - Segmented Control.app/Switch - Segmented Control";
+			};
+			name = Debug;
+		};
+		D3DF2E9C288EACE7002ECA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Switch---Segmented-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Switch - Segmented Control.app/Switch - Segmented Control";
+			};
+			name = Release;
+		};
+		D3DF2E9E288EACE7002ECA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Switch---Segmented-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Switch - Segmented Control";
+			};
+			name = Debug;
+		};
+		D3DF2E9F288EACE7002ECA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Switch---Segmented-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Switch - Segmented Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DF2E68288EACE4002ECA10 /* Build configuration list for PBXProject "Switch - Segmented Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF2E95288EACE7002ECA10 /* Debug */,
+				D3DF2E96288EACE7002ECA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DF2E97288EACE7002ECA10 /* Build configuration list for PBXNativeTarget "Switch - Segmented Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF2E98288EACE7002ECA10 /* Debug */,
+				D3DF2E99288EACE7002ECA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DF2E9A288EACE7002ECA10 /* Build configuration list for PBXNativeTarget "Switch - Segmented ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF2E9B288EACE7002ECA10 /* Debug */,
+				D3DF2E9C288EACE7002ECA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DF2E9D288EACE7002ECA10 /* Build configuration list for PBXNativeTarget "Switch - Segmented ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF2E9E288EACE7002ECA10 /* Debug */,
+				D3DF2E9F288EACE7002ECA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DF2E65288EACE4002ECA10 /* Project object */;
+}

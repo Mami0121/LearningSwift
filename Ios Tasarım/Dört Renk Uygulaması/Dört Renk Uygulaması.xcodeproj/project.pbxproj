@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36D898528859C5300C333EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D898428859C5300C333EB /* AppDelegate.swift */; };
+		D36D898728859C5300C333EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D898628859C5300C333EB /* SceneDelegate.swift */; };
+		D36D898928859C5300C333EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D898828859C5300C333EB /* ViewController.swift */; };
+		D36D898C28859C5400C333EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D898A28859C5400C333EB /* Main.storyboard */; };
+		D36D898E28859C5800C333EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36D898D28859C5800C333EB /* Assets.xcassets */; };
+		D36D899128859C5800C333EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D898F28859C5800C333EB /* LaunchScreen.storyboard */; };
+		D36D899C28859C5800C333EB /* Do_rt_Renk_Uygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D899B28859C5800C333EB /* Do_rt_Renk_Uygulamas_Tests.swift */; };
+		D36D89A628859C5800C333EB /* Do_rt_Renk_Uygulamas_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89A528859C5800C333EB /* Do_rt_Renk_Uygulamas_UITests.swift */; };
+		D36D89A828859C5800C333EB /* Do_rt_Renk_Uygulamas_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89A728859C5800C333EB /* Do_rt_Renk_Uygulamas_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36D899828859C5800C333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D897928859C5300C333EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D898028859C5300C333EB;
+			remoteInfo = "Dört Renk Uygulaması";
+		};
+		D36D89A228859C5800C333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D897928859C5300C333EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D898028859C5300C333EB;
+			remoteInfo = "Dört Renk Uygulaması";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36D898128859C5300C333EB /* Dört Renk Uygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dört Renk Uygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D898428859C5300C333EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36D898628859C5300C333EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D36D898828859C5300C333EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36D898B28859C5400C333EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36D898D28859C5800C333EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36D899028859C5800C333EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36D899228859C5800C333EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36D899728859C5800C333EB /* Dört Renk UygulamasıTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dört Renk UygulamasıTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D899B28859C5800C333EB /* Do_rt_Renk_Uygulamas_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_rt_Renk_Uygulamas_Tests.swift; sourceTree = "<group>"; };
+		D36D89A128859C5800C333EB /* Dört Renk UygulamasıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dört Renk UygulamasıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D89A528859C5800C333EB /* Do_rt_Renk_Uygulamas_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_rt_Renk_Uygulamas_UITests.swift; sourceTree = "<group>"; };
+		D36D89A728859C5800C333EB /* Do_rt_Renk_Uygulamas_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_rt_Renk_Uygulamas_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36D897E28859C5300C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D899428859C5800C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D899E28859C5800C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36D897828859C5300C333EB = {
+			isa = PBXGroup;
+			children = (
+				D36D898328859C5300C333EB /* Dört Renk Uygulaması */,
+				D36D899A28859C5800C333EB /* Dört Renk UygulamasıTests */,
+				D36D89A428859C5800C333EB /* Dört Renk UygulamasıUITests */,
+				D36D898228859C5300C333EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36D898228859C5300C333EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36D898128859C5300C333EB /* Dört Renk Uygulaması.app */,
+				D36D899728859C5800C333EB /* Dört Renk UygulamasıTests.xctest */,
+				D36D89A128859C5800C333EB /* Dört Renk UygulamasıUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36D898328859C5300C333EB /* Dört Renk Uygulaması */ = {
+			isa = PBXGroup;
+			children = (
+				D36D898428859C5300C333EB /* AppDelegate.swift */,
+				D36D898628859C5300C333EB /* SceneDelegate.swift */,
+				D36D898828859C5300C333EB /* ViewController.swift */,
+				D36D898A28859C5400C333EB /* Main.storyboard */,
+				D36D898D28859C5800C333EB /* Assets.xcassets */,
+				D36D898F28859C5800C333EB /* LaunchScreen.storyboard */,
+				D36D899228859C5800C333EB /* Info.plist */,
+			);
+			path = "Dört Renk Uygulaması";
+			sourceTree = "<group>";
+		};
+		D36D899A28859C5800C333EB /* Dört Renk UygulamasıTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D899B28859C5800C333EB /* Do_rt_Renk_Uygulamas_Tests.swift */,
+			);
+			path = "Dört Renk UygulamasıTests";
+			sourceTree = "<group>";
+		};
+		D36D89A428859C5800C333EB /* Dört Renk UygulamasıUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89A528859C5800C333EB /* Do_rt_Renk_Uygulamas_UITests.swift */,
+				D36D89A728859C5800C333EB /* Do_rt_Renk_Uygulamas_UITestsLaunchTests.swift */,
+			);
+			path = "Dört Renk UygulamasıUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36D898028859C5300C333EB /* Dört Renk Uygulaması */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D89AB28859C5800C333EB /* Build configuration list for PBXNativeTarget "Dört Renk Uygulaması" */;
+			buildPhases = (
+				D36D897D28859C5300C333EB /* Sources */,
+				D36D897E28859C5300C333EB /* Frameworks */,
+				D36D897F28859C5300C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dört Renk Uygulaması";
+			productName = "Dört Renk Uygulaması";
+			productReference = D36D898128859C5300C333EB /* Dört Renk Uygulaması.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36D899628859C5800C333EB /* Dört Renk UygulamasıTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D89AE28859C5800C333EB /* Build configuration list for PBXNativeTarget "Dört Renk UygulamasıTests" */;
+			buildPhases = (
+				D36D899328859C5800C333EB /* Sources */,
+				D36D899428859C5800C333EB /* Frameworks */,
+				D36D899528859C5800C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D899928859C5800C333EB /* PBXTargetDependency */,
+			);
+			name = "Dört Renk UygulamasıTests";
+			productName = "Dört Renk UygulamasıTests";
+			productReference = D36D899728859C5800C333EB /* Dört Renk UygulamasıTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36D89A028859C5800C333EB /* Dört Renk UygulamasıUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D89B128859C5800C333EB /* Build configuration list for PBXNativeTarget "Dört Renk UygulamasıUITests" */;
+			buildPhases = (
+				D36D899D28859C5800C333EB /* Sources */,
+				D36D899E28859C5800C333EB /* Frameworks */,
+				D36D899F28859C5800C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D89A328859C5800C333EB /* PBXTargetDependency */,
+			);
+			name = "Dört Renk UygulamasıUITests";
+			productName = "Dört Renk UygulamasıUITests";
+			productReference = D36D89A128859C5800C333EB /* Dört Renk UygulamasıUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36D897928859C5300C333EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D36D898028859C5300C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D36D899628859C5800C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36D898028859C5300C333EB;
+					};
+					D36D89A028859C5800C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36D898028859C5300C333EB;
+					};
+				};
+			};
+			buildConfigurationList = D36D897C28859C5300C333EB /* Build configuration list for PBXProject "Dört Renk Uygulaması" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36D897828859C5300C333EB;
+			productRefGroup = D36D898228859C5300C333EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36D898028859C5300C333EB /* Dört Renk Uygulaması */,
+				D36D899628859C5800C333EB /* Dört Renk UygulamasıTests */,
+				D36D89A028859C5800C333EB /* Dört Renk UygulamasıUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36D897F28859C5300C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D899128859C5800C333EB /* LaunchScreen.storyboard in Resources */,
+				D36D898E28859C5800C333EB /* Assets.xcassets in Resources */,
+				D36D898C28859C5400C333EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D899528859C5800C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D899F28859C5800C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36D897D28859C5300C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D898928859C5300C333EB /* ViewController.swift in Sources */,
+				D36D898528859C5300C333EB /* AppDelegate.swift in Sources */,
+				D36D898728859C5300C333EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D899328859C5800C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D899C28859C5800C333EB /* Do_rt_Renk_Uygulamas_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D899D28859C5800C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D89A828859C5800C333EB /* Do_rt_Renk_Uygulamas_UITestsLaunchTests.swift in Sources */,
+				D36D89A628859C5800C333EB /* Do_rt_Renk_Uygulamas_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36D899928859C5800C333EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D898028859C5300C333EB /* Dört Renk Uygulaması */;
+			targetProxy = D36D899828859C5800C333EB /* PBXContainerItemProxy */;
+		};
+		D36D89A328859C5800C333EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D898028859C5300C333EB /* Dört Renk Uygulaması */;
+			targetProxy = D36D89A228859C5800C333EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36D898A28859C5400C333EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D898B28859C5400C333EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36D898F28859C5800C333EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D899028859C5800C333EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36D89A928859C5800C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36D89AA28859C5800C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36D89AC28859C5800C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dört Renk Uygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Do-rt-Renk-Uygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36D89AD28859C5800C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dört Renk Uygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Do-rt-Renk-Uygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D36D89AF28859C5800C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Do-rt-Renk-Uygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dört Renk Uygulaması.app/Dört Renk Uygulaması";
+			};
+			name = Debug;
+		};
+		D36D89B028859C5800C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Do-rt-Renk-Uygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dört Renk Uygulaması.app/Dört Renk Uygulaması";
+			};
+			name = Release;
+		};
+		D36D89B228859C5800C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Do-rt-Renk-Uygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dört Renk Uygulaması";
+			};
+			name = Debug;
+		};
+		D36D89B328859C5800C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Do-rt-Renk-Uygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dört Renk Uygulaması";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36D897C28859C5300C333EB /* Build configuration list for PBXProject "Dört Renk Uygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89A928859C5800C333EB /* Debug */,
+				D36D89AA28859C5800C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D89AB28859C5800C333EB /* Build configuration list for PBXNativeTarget "Dört Renk Uygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89AC28859C5800C333EB /* Debug */,
+				D36D89AD28859C5800C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D89AE28859C5800C333EB /* Build configuration list for PBXNativeTarget "Dört Renk UygulamasıTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89AF28859C5800C333EB /* Debug */,
+				D36D89B028859C5800C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D89B128859C5800C333EB /* Build configuration list for PBXNativeTarget "Dört Renk UygulamasıUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89B228859C5800C333EB /* Debug */,
+				D36D89B328859C5800C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36D897928859C5300C333EB /* Project object */;
+}

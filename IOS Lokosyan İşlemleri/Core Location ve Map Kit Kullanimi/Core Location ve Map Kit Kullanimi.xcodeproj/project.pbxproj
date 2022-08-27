@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D364176F28A035480066860A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D364176E28A035480066860A /* AppDelegate.swift */; };
+		D364177128A035480066860A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D364177028A035480066860A /* SceneDelegate.swift */; };
+		D364177328A035480066860A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D364177228A035480066860A /* ViewController.swift */; };
+		D364177628A035480066860A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D364177428A035480066860A /* Main.storyboard */; };
+		D364177828A0354A0066860A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D364177728A0354A0066860A /* Assets.xcassets */; };
+		D364177B28A0354A0066860A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D364177928A0354A0066860A /* LaunchScreen.storyboard */; };
+		D364178628A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D364178528A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiTests.swift */; };
+		D364179028A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D364178F28A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITests.swift */; };
+		D364179228A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D364179128A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITestsLaunchTests.swift */; };
+		D36417A028A0356B0066860A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364179F28A0356B0066860A /* CoreLocation.framework */; };
+		D36417A228A0357A0066860A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36417A128A0357A0066860A /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D364178228A0354A0066860A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D364176328A035480066860A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D364176A28A035480066860A;
+			remoteInfo = "Core Location ve Map Kit Kullanimi";
+		};
+		D364178C28A0354A0066860A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D364176328A035480066860A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D364176A28A035480066860A;
+			remoteInfo = "Core Location ve Map Kit Kullanimi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D364176B28A035480066860A /* Core Location ve Map Kit Kullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Location ve Map Kit Kullanimi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D364176E28A035480066860A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D364177028A035480066860A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D364177228A035480066860A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D364177528A035480066860A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D364177728A0354A0066860A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D364177A28A0354A0066860A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D364177C28A0354A0066860A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D364178128A0354A0066860A /* Core Location ve Map Kit KullanimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Location ve Map Kit KullanimiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D364178528A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Location_ve_Map_Kit_KullanimiTests.swift; sourceTree = "<group>"; };
+		D364178B28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Location ve Map Kit KullanimiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D364178F28A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Location_ve_Map_Kit_KullanimiUITests.swift; sourceTree = "<group>"; };
+		D364179128A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Location_ve_Map_Kit_KullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D364179F28A0356B0066860A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D36417A128A0357A0066860A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D364176828A035480066860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36417A228A0357A0066860A /* MapKit.framework in Frameworks */,
+				D36417A028A0356B0066860A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D364177E28A0354A0066860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D364178828A0354A0066860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D364176228A035480066860A = {
+			isa = PBXGroup;
+			children = (
+				D364176D28A035480066860A /* Core Location ve Map Kit Kullanimi */,
+				D364178428A0354A0066860A /* Core Location ve Map Kit KullanimiTests */,
+				D364178E28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests */,
+				D364176C28A035480066860A /* Products */,
+				D364179E28A0356B0066860A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D364176C28A035480066860A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D364176B28A035480066860A /* Core Location ve Map Kit Kullanimi.app */,
+				D364178128A0354A0066860A /* Core Location ve Map Kit KullanimiTests.xctest */,
+				D364178B28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D364176D28A035480066860A /* Core Location ve Map Kit Kullanimi */ = {
+			isa = PBXGroup;
+			children = (
+				D364176E28A035480066860A /* AppDelegate.swift */,
+				D364177028A035480066860A /* SceneDelegate.swift */,
+				D364177228A035480066860A /* ViewController.swift */,
+				D364177428A035480066860A /* Main.storyboard */,
+				D364177728A0354A0066860A /* Assets.xcassets */,
+				D364177928A0354A0066860A /* LaunchScreen.storyboard */,
+				D364177C28A0354A0066860A /* Info.plist */,
+			);
+			path = "Core Location ve Map Kit Kullanimi";
+			sourceTree = "<group>";
+		};
+		D364178428A0354A0066860A /* Core Location ve Map Kit KullanimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D364178528A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiTests.swift */,
+			);
+			path = "Core Location ve Map Kit KullanimiTests";
+			sourceTree = "<group>";
+		};
+		D364178E28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D364178F28A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITests.swift */,
+				D364179128A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITestsLaunchTests.swift */,
+			);
+			path = "Core Location ve Map Kit KullanimiUITests";
+			sourceTree = "<group>";
+		};
+		D364179E28A0356B0066860A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36417A128A0357A0066860A /* MapKit.framework */,
+				D364179F28A0356B0066860A /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D364176A28A035480066860A /* Core Location ve Map Kit Kullanimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D364179528A0354A0066860A /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit Kullanimi" */;
+			buildPhases = (
+				D364176728A035480066860A /* Sources */,
+				D364176828A035480066860A /* Frameworks */,
+				D364176928A035480066860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Location ve Map Kit Kullanimi";
+			productName = "Core Location ve Map Kit Kullanimi";
+			productReference = D364176B28A035480066860A /* Core Location ve Map Kit Kullanimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D364178028A0354A0066860A /* Core Location ve Map Kit KullanimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D364179828A0354A0066860A /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiTests" */;
+			buildPhases = (
+				D364177D28A0354A0066860A /* Sources */,
+				D364177E28A0354A0066860A /* Frameworks */,
+				D364177F28A0354A0066860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D364178328A0354A0066860A /* PBXTargetDependency */,
+			);
+			name = "Core Location ve Map Kit KullanimiTests";
+			productName = "Core Location ve Map Kit KullanimiTests";
+			productReference = D364178128A0354A0066860A /* Core Location ve Map Kit KullanimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D364178A28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D364179B28A0354A0066860A /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiUITests" */;
+			buildPhases = (
+				D364178728A0354A0066860A /* Sources */,
+				D364178828A0354A0066860A /* Frameworks */,
+				D364178928A0354A0066860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D364178D28A0354A0066860A /* PBXTargetDependency */,
+			);
+			name = "Core Location ve Map Kit KullanimiUITests";
+			productName = "Core Location ve Map Kit KullanimiUITests";
+			productReference = D364178B28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D364176328A035480066860A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D364176A28A035480066860A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D364178028A0354A0066860A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D364176A28A035480066860A;
+					};
+					D364178A28A0354A0066860A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D364176A28A035480066860A;
+					};
+				};
+			};
+			buildConfigurationList = D364176628A035480066860A /* Build configuration list for PBXProject "Core Location ve Map Kit Kullanimi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D364176228A035480066860A;
+			productRefGroup = D364176C28A035480066860A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D364176A28A035480066860A /* Core Location ve Map Kit Kullanimi */,
+				D364178028A0354A0066860A /* Core Location ve Map Kit KullanimiTests */,
+				D364178A28A0354A0066860A /* Core Location ve Map Kit KullanimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D364176928A035480066860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D364177B28A0354A0066860A /* LaunchScreen.storyboard in Resources */,
+				D364177828A0354A0066860A /* Assets.xcassets in Resources */,
+				D364177628A035480066860A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D364177F28A0354A0066860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D364178928A0354A0066860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D364176728A035480066860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D364177328A035480066860A /* ViewController.swift in Sources */,
+				D364176F28A035480066860A /* AppDelegate.swift in Sources */,
+				D364177128A035480066860A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D364177D28A0354A0066860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D364178628A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D364178728A0354A0066860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D364179228A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITestsLaunchTests.swift in Sources */,
+				D364179028A0354A0066860A /* Core_Location_ve_Map_Kit_KullanimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D364178328A0354A0066860A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D364176A28A035480066860A /* Core Location ve Map Kit Kullanimi */;
+			targetProxy = D364178228A0354A0066860A /* PBXContainerItemProxy */;
+		};
+		D364178D28A0354A0066860A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D364176A28A035480066860A /* Core Location ve Map Kit Kullanimi */;
+			targetProxy = D364178C28A0354A0066860A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D364177428A035480066860A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D364177528A035480066860A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D364177928A0354A0066860A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D364177A28A0354A0066860A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D364179328A0354A0066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D364179428A0354A0066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D364179628A0354A0066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Core Location ve Map Kit Kullanimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Core-Location-ve-Map-Kit-Kullanimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D364179728A0354A0066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Core Location ve Map Kit Kullanimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Core-Location-ve-Map-Kit-Kullanimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D364179928A0354A0066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Core-Location-ve-Map-Kit-KullanimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Location ve Map Kit Kullanimi.app/Core Location ve Map Kit Kullanimi";
+			};
+			name = Debug;
+		};
+		D364179A28A0354A0066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Core-Location-ve-Map-Kit-KullanimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Location ve Map Kit Kullanimi.app/Core Location ve Map Kit Kullanimi";
+			};
+			name = Release;
+		};
+		D364179C28A0354A0066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Core-Location-ve-Map-Kit-KullanimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Core Location ve Map Kit Kullanimi";
+			};
+			name = Debug;
+		};
+		D364179D28A0354A0066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Core-Location-ve-Map-Kit-KullanimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Core Location ve Map Kit Kullanimi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D364176628A035480066860A /* Build configuration list for PBXProject "Core Location ve Map Kit Kullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D364179328A0354A0066860A /* Debug */,
+				D364179428A0354A0066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D364179528A0354A0066860A /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit Kullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D364179628A0354A0066860A /* Debug */,
+				D364179728A0354A0066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D364179828A0354A0066860A /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D364179928A0354A0066860A /* Debug */,
+				D364179A28A0354A0066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D364179B28A0354A0066860A /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D364179C28A0354A0066860A /* Debug */,
+				D364179D28A0354A0066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D364176328A035480066860A /* Project object */;
+}

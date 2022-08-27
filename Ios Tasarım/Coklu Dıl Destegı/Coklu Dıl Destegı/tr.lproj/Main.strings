@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "ORz-hx-YoT"; */
+"ORz-hx-YoT.text" = "Merhaba";
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "QKi-zE-0m0"; */
+"QKi-zE-0m0.configuration.title" = "Türkçe";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QKi-zE-0m0"; */
+"QKi-zE-0m0.normalTitle" = "Button";

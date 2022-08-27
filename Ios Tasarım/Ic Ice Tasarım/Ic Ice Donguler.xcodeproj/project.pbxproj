@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36D89C12885AE7C00C333EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89C02885AE7C00C333EB /* AppDelegate.swift */; };
+		D36D89C32885AE7C00C333EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89C22885AE7C00C333EB /* SceneDelegate.swift */; };
+		D36D89C52885AE7C00C333EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89C42885AE7C00C333EB /* ViewController.swift */; };
+		D36D89C82885AE7C00C333EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D89C62885AE7C00C333EB /* Main.storyboard */; };
+		D36D89CA2885AE7E00C333EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36D89C92885AE7E00C333EB /* Assets.xcassets */; };
+		D36D89CD2885AE7E00C333EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D89CB2885AE7E00C333EB /* LaunchScreen.storyboard */; };
+		D36D89D82885AE7E00C333EB /* Ic_Ice_DongulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89D72885AE7E00C333EB /* Ic_Ice_DongulerTests.swift */; };
+		D36D89E22885AE7E00C333EB /* Ic_Ice_DongulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89E12885AE7E00C333EB /* Ic_Ice_DongulerUITests.swift */; };
+		D36D89E42885AE7E00C333EB /* Ic_Ice_DongulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89E32885AE7E00C333EB /* Ic_Ice_DongulerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36D89D42885AE7E00C333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D89B52885AE7C00C333EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D89BC2885AE7C00C333EB;
+			remoteInfo = "Ic Ice Donguler";
+		};
+		D36D89DE2885AE7E00C333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D89B52885AE7C00C333EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D89BC2885AE7C00C333EB;
+			remoteInfo = "Ic Ice Donguler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36D89BD2885AE7C00C333EB /* Ic Ice Donguler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ic Ice Donguler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D89C02885AE7C00C333EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36D89C22885AE7C00C333EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D36D89C42885AE7C00C333EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36D89C72885AE7C00C333EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36D89C92885AE7E00C333EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36D89CC2885AE7E00C333EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36D89CE2885AE7E00C333EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36D89D32885AE7E00C333EB /* Ic Ice DongulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ic Ice DongulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D89D72885AE7E00C333EB /* Ic_Ice_DongulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ic_Ice_DongulerTests.swift; sourceTree = "<group>"; };
+		D36D89DD2885AE7E00C333EB /* Ic Ice DongulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ic Ice DongulerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D89E12885AE7E00C333EB /* Ic_Ice_DongulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ic_Ice_DongulerUITests.swift; sourceTree = "<group>"; };
+		D36D89E32885AE7E00C333EB /* Ic_Ice_DongulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ic_Ice_DongulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36D89BA2885AE7C00C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D89D02885AE7E00C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D89DA2885AE7E00C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36D89B42885AE7C00C333EB = {
+			isa = PBXGroup;
+			children = (
+				D36D89BF2885AE7C00C333EB /* Ic Ice Donguler */,
+				D36D89D62885AE7E00C333EB /* Ic Ice DongulerTests */,
+				D36D89E02885AE7E00C333EB /* Ic Ice DongulerUITests */,
+				D36D89BE2885AE7C00C333EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36D89BE2885AE7C00C333EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89BD2885AE7C00C333EB /* Ic Ice Donguler.app */,
+				D36D89D32885AE7E00C333EB /* Ic Ice DongulerTests.xctest */,
+				D36D89DD2885AE7E00C333EB /* Ic Ice DongulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36D89BF2885AE7C00C333EB /* Ic Ice Donguler */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89C02885AE7C00C333EB /* AppDelegate.swift */,
+				D36D89C22885AE7C00C333EB /* SceneDelegate.swift */,
+				D36D89C42885AE7C00C333EB /* ViewController.swift */,
+				D36D89C62885AE7C00C333EB /* Main.storyboard */,
+				D36D89C92885AE7E00C333EB /* Assets.xcassets */,
+				D36D89CB2885AE7E00C333EB /* LaunchScreen.storyboard */,
+				D36D89CE2885AE7E00C333EB /* Info.plist */,
+			);
+			path = "Ic Ice Donguler";
+			sourceTree = "<group>";
+		};
+		D36D89D62885AE7E00C333EB /* Ic Ice DongulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89D72885AE7E00C333EB /* Ic_Ice_DongulerTests.swift */,
+			);
+			path = "Ic Ice DongulerTests";
+			sourceTree = "<group>";
+		};
+		D36D89E02885AE7E00C333EB /* Ic Ice DongulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89E12885AE7E00C333EB /* Ic_Ice_DongulerUITests.swift */,
+				D36D89E32885AE7E00C333EB /* Ic_Ice_DongulerUITestsLaunchTests.swift */,
+			);
+			path = "Ic Ice DongulerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36D89BC2885AE7C00C333EB /* Ic Ice Donguler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D89E72885AE7E00C333EB /* Build configuration list for PBXNativeTarget "Ic Ice Donguler" */;
+			buildPhases = (
+				D36D89B92885AE7C00C333EB /* Sources */,
+				D36D89BA2885AE7C00C333EB /* Frameworks */,
+				D36D89BB2885AE7C00C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ic Ice Donguler";
+			productName = "Ic Ice Donguler";
+			productReference = D36D89BD2885AE7C00C333EB /* Ic Ice Donguler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36D89D22885AE7E00C333EB /* Ic Ice DongulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D89EA2885AE7E00C333EB /* Build configuration list for PBXNativeTarget "Ic Ice DongulerTests" */;
+			buildPhases = (
+				D36D89CF2885AE7E00C333EB /* Sources */,
+				D36D89D02885AE7E00C333EB /* Frameworks */,
+				D36D89D12885AE7E00C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D89D52885AE7E00C333EB /* PBXTargetDependency */,
+			);
+			name = "Ic Ice DongulerTests";
+			productName = "Ic Ice DongulerTests";
+			productReference = D36D89D32885AE7E00C333EB /* Ic Ice DongulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36D89DC2885AE7E00C333EB /* Ic Ice DongulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D89ED2885AE7E00C333EB /* Build configuration list for PBXNativeTarget "Ic Ice DongulerUITests" */;
+			buildPhases = (
+				D36D89D92885AE7E00C333EB /* Sources */,
+				D36D89DA2885AE7E00C333EB /* Frameworks */,
+				D36D89DB2885AE7E00C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D89DF2885AE7E00C333EB /* PBXTargetDependency */,
+			);
+			name = "Ic Ice DongulerUITests";
+			productName = "Ic Ice DongulerUITests";
+			productReference = D36D89DD2885AE7E00C333EB /* Ic Ice DongulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36D89B52885AE7C00C333EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D36D89BC2885AE7C00C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D36D89D22885AE7E00C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36D89BC2885AE7C00C333EB;
+					};
+					D36D89DC2885AE7E00C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36D89BC2885AE7C00C333EB;
+					};
+				};
+			};
+			buildConfigurationList = D36D89B82885AE7C00C333EB /* Build configuration list for PBXProject "Ic Ice Donguler" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36D89B42885AE7C00C333EB;
+			productRefGroup = D36D89BE2885AE7C00C333EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36D89BC2885AE7C00C333EB /* Ic Ice Donguler */,
+				D36D89D22885AE7E00C333EB /* Ic Ice DongulerTests */,
+				D36D89DC2885AE7E00C333EB /* Ic Ice DongulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36D89BB2885AE7C00C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D89CD2885AE7E00C333EB /* LaunchScreen.storyboard in Resources */,
+				D36D89CA2885AE7E00C333EB /* Assets.xcassets in Resources */,
+				D36D89C82885AE7C00C333EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D89D12885AE7E00C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D89DB2885AE7E00C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36D89B92885AE7C00C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D89C52885AE7C00C333EB /* ViewController.swift in Sources */,
+				D36D89C12885AE7C00C333EB /* AppDelegate.swift in Sources */,
+				D36D89C32885AE7C00C333EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D89CF2885AE7E00C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D89D82885AE7E00C333EB /* Ic_Ice_DongulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D89D92885AE7E00C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D89E42885AE7E00C333EB /* Ic_Ice_DongulerUITestsLaunchTests.swift in Sources */,
+				D36D89E22885AE7E00C333EB /* Ic_Ice_DongulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36D89D52885AE7E00C333EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D89BC2885AE7C00C333EB /* Ic Ice Donguler */;
+			targetProxy = D36D89D42885AE7E00C333EB /* PBXContainerItemProxy */;
+		};
+		D36D89DF2885AE7E00C333EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D89BC2885AE7C00C333EB /* Ic Ice Donguler */;
+			targetProxy = D36D89DE2885AE7E00C333EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36D89C62885AE7C00C333EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D89C72885AE7C00C333EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36D89CB2885AE7E00C333EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D89CC2885AE7E00C333EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36D89E52885AE7E00C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36D89E62885AE7E00C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36D89E82885AE7E00C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ic Ice Donguler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Ic-Ice-Donguler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36D89E92885AE7E00C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ic Ice Donguler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Ic-Ice-Donguler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D36D89EB2885AE7E00C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Ic-Ice-DongulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ic Ice Donguler.app/Ic Ice Donguler";
+			};
+			name = Debug;
+		};
+		D36D89EC2885AE7E00C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Ic-Ice-DongulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ic Ice Donguler.app/Ic Ice Donguler";
+			};
+			name = Release;
+		};
+		D36D89EE2885AE7E00C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Ic-Ice-DongulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ic Ice Donguler";
+			};
+			name = Debug;
+		};
+		D36D89EF2885AE7E00C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Ic-Ice-DongulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ic Ice Donguler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36D89B82885AE7C00C333EB /* Build configuration list for PBXProject "Ic Ice Donguler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89E52885AE7E00C333EB /* Debug */,
+				D36D89E62885AE7E00C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D89E72885AE7E00C333EB /* Build configuration list for PBXNativeTarget "Ic Ice Donguler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89E82885AE7E00C333EB /* Debug */,
+				D36D89E92885AE7E00C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D89EA2885AE7E00C333EB /* Build configuration list for PBXNativeTarget "Ic Ice DongulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89EB2885AE7E00C333EB /* Debug */,
+				D36D89EC2885AE7E00C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D89ED2885AE7E00C333EB /* Build configuration list for PBXNativeTarget "Ic Ice DongulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D89EE2885AE7E00C333EB /* Debug */,
+				D36D89EF2885AE7E00C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36D89B52885AE7C00C333EB /* Project object */;
+}

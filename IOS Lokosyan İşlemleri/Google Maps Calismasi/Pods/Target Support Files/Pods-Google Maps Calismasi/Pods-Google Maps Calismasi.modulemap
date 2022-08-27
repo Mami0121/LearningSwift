@@ -1,0 +1,6 @@
+framework module Pods_Google_Maps_Calismasi {
+  umbrella header "Pods-Google Maps Calismasi-umbrella.h"
+
+  export *
+  module * { export * }
+}

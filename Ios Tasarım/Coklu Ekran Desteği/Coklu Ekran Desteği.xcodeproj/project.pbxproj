@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36D89FD2885BA8000C333EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89FC2885BA8000C333EB /* AppDelegate.swift */; };
+		D36D89FF2885BA8000C333EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D89FE2885BA8000C333EB /* SceneDelegate.swift */; };
+		D36D8A012885BA8000C333EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D8A002885BA8000C333EB /* ViewController.swift */; };
+		D36D8A042885BA8000C333EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D8A022885BA8000C333EB /* Main.storyboard */; };
+		D36D8A062885BA8200C333EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36D8A052885BA8200C333EB /* Assets.xcassets */; };
+		D36D8A092885BA8200C333EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D8A072885BA8200C333EB /* LaunchScreen.storyboard */; };
+		D36D8A142885BA8200C333EB /* Coklu_Ekran_Desteg_iTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D8A132885BA8200C333EB /* Coklu_Ekran_Desteg_iTests.swift */; };
+		D36D8A1E2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D8A1D2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITests.swift */; };
+		D36D8A202885BA8200C333EB /* Coklu_Ekran_Desteg_iUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D8A1F2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36D8A102885BA8200C333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D89F12885BA8000C333EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D89F82885BA8000C333EB;
+			remoteInfo = "Coklu Ekran Desteği";
+		};
+		D36D8A1A2885BA8200C333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D89F12885BA8000C333EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D89F82885BA8000C333EB;
+			remoteInfo = "Coklu Ekran Desteği";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36D89F92885BA8000C333EB /* Coklu Ekran Desteği.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coklu Ekran Desteği.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D89FC2885BA8000C333EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36D89FE2885BA8000C333EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D36D8A002885BA8000C333EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36D8A032885BA8000C333EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36D8A052885BA8200C333EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36D8A082885BA8200C333EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36D8A0A2885BA8200C333EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36D8A0F2885BA8200C333EB /* Coklu Ekran DesteğiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Ekran DesteğiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D8A132885BA8200C333EB /* Coklu_Ekran_Desteg_iTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Desteg_iTests.swift; sourceTree = "<group>"; };
+		D36D8A192885BA8200C333EB /* Coklu Ekran DesteğiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Ekran DesteğiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D8A1D2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Desteg_iUITests.swift; sourceTree = "<group>"; };
+		D36D8A1F2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Desteg_iUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36D89F62885BA8000C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8A0C2885BA8200C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8A162885BA8200C333EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36D89F02885BA8000C333EB = {
+			isa = PBXGroup;
+			children = (
+				D36D89FB2885BA8000C333EB /* Coklu Ekran Desteği */,
+				D36D8A122885BA8200C333EB /* Coklu Ekran DesteğiTests */,
+				D36D8A1C2885BA8200C333EB /* Coklu Ekran DesteğiUITests */,
+				D36D89FA2885BA8000C333EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36D89FA2885BA8000C333EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89F92885BA8000C333EB /* Coklu Ekran Desteği.app */,
+				D36D8A0F2885BA8200C333EB /* Coklu Ekran DesteğiTests.xctest */,
+				D36D8A192885BA8200C333EB /* Coklu Ekran DesteğiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36D89FB2885BA8000C333EB /* Coklu Ekran Desteği */ = {
+			isa = PBXGroup;
+			children = (
+				D36D89FC2885BA8000C333EB /* AppDelegate.swift */,
+				D36D89FE2885BA8000C333EB /* SceneDelegate.swift */,
+				D36D8A002885BA8000C333EB /* ViewController.swift */,
+				D36D8A022885BA8000C333EB /* Main.storyboard */,
+				D36D8A052885BA8200C333EB /* Assets.xcassets */,
+				D36D8A072885BA8200C333EB /* LaunchScreen.storyboard */,
+				D36D8A0A2885BA8200C333EB /* Info.plist */,
+			);
+			path = "Coklu Ekran Desteği";
+			sourceTree = "<group>";
+		};
+		D36D8A122885BA8200C333EB /* Coklu Ekran DesteğiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D8A132885BA8200C333EB /* Coklu_Ekran_Desteg_iTests.swift */,
+			);
+			path = "Coklu Ekran DesteğiTests";
+			sourceTree = "<group>";
+		};
+		D36D8A1C2885BA8200C333EB /* Coklu Ekran DesteğiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D8A1D2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITests.swift */,
+				D36D8A1F2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITestsLaunchTests.swift */,
+			);
+			path = "Coklu Ekran DesteğiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36D89F82885BA8000C333EB /* Coklu Ekran Desteği */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D8A232885BA8200C333EB /* Build configuration list for PBXNativeTarget "Coklu Ekran Desteği" */;
+			buildPhases = (
+				D36D89F52885BA8000C333EB /* Sources */,
+				D36D89F62885BA8000C333EB /* Frameworks */,
+				D36D89F72885BA8000C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coklu Ekran Desteği";
+			productName = "Coklu Ekran Desteği";
+			productReference = D36D89F92885BA8000C333EB /* Coklu Ekran Desteği.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36D8A0E2885BA8200C333EB /* Coklu Ekran DesteğiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D8A262885BA8200C333EB /* Build configuration list for PBXNativeTarget "Coklu Ekran DesteğiTests" */;
+			buildPhases = (
+				D36D8A0B2885BA8200C333EB /* Sources */,
+				D36D8A0C2885BA8200C333EB /* Frameworks */,
+				D36D8A0D2885BA8200C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D8A112885BA8200C333EB /* PBXTargetDependency */,
+			);
+			name = "Coklu Ekran DesteğiTests";
+			productName = "Coklu Ekran DesteğiTests";
+			productReference = D36D8A0F2885BA8200C333EB /* Coklu Ekran DesteğiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36D8A182885BA8200C333EB /* Coklu Ekran DesteğiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D8A292885BA8200C333EB /* Build configuration list for PBXNativeTarget "Coklu Ekran DesteğiUITests" */;
+			buildPhases = (
+				D36D8A152885BA8200C333EB /* Sources */,
+				D36D8A162885BA8200C333EB /* Frameworks */,
+				D36D8A172885BA8200C333EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D8A1B2885BA8200C333EB /* PBXTargetDependency */,
+			);
+			name = "Coklu Ekran DesteğiUITests";
+			productName = "Coklu Ekran DesteğiUITests";
+			productReference = D36D8A192885BA8200C333EB /* Coklu Ekran DesteğiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36D89F12885BA8000C333EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D36D89F82885BA8000C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D36D8A0E2885BA8200C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36D89F82885BA8000C333EB;
+					};
+					D36D8A182885BA8200C333EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36D89F82885BA8000C333EB;
+					};
+				};
+			};
+			buildConfigurationList = D36D89F42885BA8000C333EB /* Build configuration list for PBXProject "Coklu Ekran Desteği" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36D89F02885BA8000C333EB;
+			productRefGroup = D36D89FA2885BA8000C333EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36D89F82885BA8000C333EB /* Coklu Ekran Desteği */,
+				D36D8A0E2885BA8200C333EB /* Coklu Ekran DesteğiTests */,
+				D36D8A182885BA8200C333EB /* Coklu Ekran DesteğiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36D89F72885BA8000C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D8A092885BA8200C333EB /* LaunchScreen.storyboard in Resources */,
+				D36D8A062885BA8200C333EB /* Assets.xcassets in Resources */,
+				D36D8A042885BA8000C333EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8A0D2885BA8200C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8A172885BA8200C333EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36D89F52885BA8000C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D8A012885BA8000C333EB /* ViewController.swift in Sources */,
+				D36D89FD2885BA8000C333EB /* AppDelegate.swift in Sources */,
+				D36D89FF2885BA8000C333EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8A0B2885BA8200C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D8A142885BA8200C333EB /* Coklu_Ekran_Desteg_iTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8A152885BA8200C333EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D8A1E2885BA8200C333EB /* Coklu_Ekran_Desteg_iUITests.swift in Sources */,
+				D36D8A202885BA8200C333EB /* Coklu_Ekran_Desteg_iUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36D8A112885BA8200C333EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D89F82885BA8000C333EB /* Coklu Ekran Desteği */;
+			targetProxy = D36D8A102885BA8200C333EB /* PBXContainerItemProxy */;
+		};
+		D36D8A1B2885BA8200C333EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D89F82885BA8000C333EB /* Coklu Ekran Desteği */;
+			targetProxy = D36D8A1A2885BA8200C333EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36D8A022885BA8000C333EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D8A032885BA8000C333EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36D8A072885BA8200C333EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D8A082885BA8200C333EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36D8A212885BA8200C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36D8A222885BA8200C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36D8A242885BA8200C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Ekran Desteği/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Desteg-i";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36D8A252885BA8200C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Ekran Desteği/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Desteg-i";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D36D8A272885BA8200C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Desteg-iTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Ekran Desteği.app/Coklu Ekran Desteği";
+			};
+			name = Debug;
+		};
+		D36D8A282885BA8200C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Desteg-iTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Ekran Desteği.app/Coklu Ekran Desteği";
+			};
+			name = Release;
+		};
+		D36D8A2A2885BA8200C333EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Desteg-iUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Ekran Desteği";
+			};
+			name = Debug;
+		};
+		D36D8A2B2885BA8200C333EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Desteg-iUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Ekran Desteği";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36D89F42885BA8000C333EB /* Build configuration list for PBXProject "Coklu Ekran Desteği" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D8A212885BA8200C333EB /* Debug */,
+				D36D8A222885BA8200C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D8A232885BA8200C333EB /* Build configuration list for PBXNativeTarget "Coklu Ekran Desteği" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D8A242885BA8200C333EB /* Debug */,
+				D36D8A252885BA8200C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D8A262885BA8200C333EB /* Build configuration list for PBXNativeTarget "Coklu Ekran DesteğiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D8A272885BA8200C333EB /* Debug */,
+				D36D8A282885BA8200C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D8A292885BA8200C333EB /* Build configuration list for PBXNativeTarget "Coklu Ekran DesteğiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D8A2A2885BA8200C333EB /* Debug */,
+				D36D8A2B2885BA8200C333EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36D89F12885BA8000C333EB /* Project object */;
+}

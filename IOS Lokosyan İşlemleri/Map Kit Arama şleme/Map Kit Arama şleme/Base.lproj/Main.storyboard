@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Map_Kit_Arama_s_leme" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="9nu-M3-0PO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="V3y-1J-CN9">
+                                <rect key="frame" x="0.0" y="95" width="414" height="767"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9nu-M3-0PO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1xZ-My-auL"/>
+                            <constraint firstItem="9nu-M3-0PO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4gf-K1-KdQ"/>
+                            <constraint firstItem="V3y-1J-CN9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9ic-4P-too"/>
+                            <constraint firstItem="V3y-1J-CN9" firstAttribute="top" secondItem="9nu-M3-0PO" secondAttribute="bottom" id="glI-pY-p04"/>
+                            <constraint firstItem="9nu-M3-0PO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jd6-Dw-PSY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V3y-1J-CN9" secondAttribute="trailing" id="xej-lX-2gv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V3y-1J-CN9" secondAttribute="bottom" id="xm4-K3-0DY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aramaBar" destination="9nu-M3-0PO" id="dpk-SU-KNa"/>
+                        <outlet property="mapView" destination="V3y-1J-CN9" id="gO8-Lt-Pwe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

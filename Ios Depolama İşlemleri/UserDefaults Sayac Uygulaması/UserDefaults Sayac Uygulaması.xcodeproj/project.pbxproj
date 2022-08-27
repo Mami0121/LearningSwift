@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3BC40742893C71A002FFFBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC40732893C71A002FFFBA /* AppDelegate.swift */; };
+		D3BC40762893C71A002FFFBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC40752893C71A002FFFBA /* SceneDelegate.swift */; };
+		D3BC40782893C71A002FFFBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC40772893C71A002FFFBA /* ViewController.swift */; };
+		D3BC407B2893C71A002FFFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BC40792893C71A002FFFBA /* Main.storyboard */; };
+		D3BC407D2893C71D002FFFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BC407C2893C71D002FFFBA /* Assets.xcassets */; };
+		D3BC40802893C71D002FFFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BC407E2893C71D002FFFBA /* LaunchScreen.storyboard */; };
+		D3BC408B2893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC408A2893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_Tests.swift */; };
+		D3BC40952893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC40942893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITests.swift */; };
+		D3BC40972893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC40962893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3BC40872893C71D002FFFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BC40682893C71A002FFFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BC406F2893C71A002FFFBA;
+			remoteInfo = "UserDefaults Sayac Uygulaması";
+		};
+		D3BC40912893C71D002FFFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BC40682893C71A002FFFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BC406F2893C71A002FFFBA;
+			remoteInfo = "UserDefaults Sayac Uygulaması";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3BC40702893C71A002FFFBA /* UserDefaults Sayac Uygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UserDefaults Sayac Uygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BC40732893C71A002FFFBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3BC40752893C71A002FFFBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3BC40772893C71A002FFFBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3BC407A2893C71A002FFFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3BC407C2893C71D002FFFBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3BC407F2893C71D002FFFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3BC40812893C71D002FFFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BC40862893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UserDefaults Sayac UygulamasıTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BC408A2893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_Sayac_Uygulamas_Tests.swift; sourceTree = "<group>"; };
+		D3BC40902893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UserDefaults Sayac UygulamasıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BC40942893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_Sayac_Uygulamas_UITests.swift; sourceTree = "<group>"; };
+		D3BC40962893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_Sayac_Uygulamas_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3BC406D2893C71A002FFFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC40832893C71D002FFFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC408D2893C71D002FFFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3BC40672893C71A002FFFBA = {
+			isa = PBXGroup;
+			children = (
+				D3BC40722893C71A002FFFBA /* UserDefaults Sayac Uygulaması */,
+				D3BC40892893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests */,
+				D3BC40932893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests */,
+				D3BC40712893C71A002FFFBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3BC40712893C71A002FFFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC40702893C71A002FFFBA /* UserDefaults Sayac Uygulaması.app */,
+				D3BC40862893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests.xctest */,
+				D3BC40902893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3BC40722893C71A002FFFBA /* UserDefaults Sayac Uygulaması */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC40732893C71A002FFFBA /* AppDelegate.swift */,
+				D3BC40752893C71A002FFFBA /* SceneDelegate.swift */,
+				D3BC40772893C71A002FFFBA /* ViewController.swift */,
+				D3BC40792893C71A002FFFBA /* Main.storyboard */,
+				D3BC407C2893C71D002FFFBA /* Assets.xcassets */,
+				D3BC407E2893C71D002FFFBA /* LaunchScreen.storyboard */,
+				D3BC40812893C71D002FFFBA /* Info.plist */,
+			);
+			path = "UserDefaults Sayac Uygulaması";
+			sourceTree = "<group>";
+		};
+		D3BC40892893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC408A2893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_Tests.swift */,
+			);
+			path = "UserDefaults Sayac UygulamasıTests";
+			sourceTree = "<group>";
+		};
+		D3BC40932893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC40942893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITests.swift */,
+				D3BC40962893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITestsLaunchTests.swift */,
+			);
+			path = "UserDefaults Sayac UygulamasıUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3BC406F2893C71A002FFFBA /* UserDefaults Sayac Uygulaması */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BC409A2893C71D002FFFBA /* Build configuration list for PBXNativeTarget "UserDefaults Sayac Uygulaması" */;
+			buildPhases = (
+				D3BC406C2893C71A002FFFBA /* Sources */,
+				D3BC406D2893C71A002FFFBA /* Frameworks */,
+				D3BC406E2893C71A002FFFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UserDefaults Sayac Uygulaması";
+			productName = "UserDefaults Sayac Uygulaması";
+			productReference = D3BC40702893C71A002FFFBA /* UserDefaults Sayac Uygulaması.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3BC40852893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BC409D2893C71D002FFFBA /* Build configuration list for PBXNativeTarget "UserDefaults Sayac UygulamasıTests" */;
+			buildPhases = (
+				D3BC40822893C71D002FFFBA /* Sources */,
+				D3BC40832893C71D002FFFBA /* Frameworks */,
+				D3BC40842893C71D002FFFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BC40882893C71D002FFFBA /* PBXTargetDependency */,
+			);
+			name = "UserDefaults Sayac UygulamasıTests";
+			productName = "UserDefaults Sayac UygulamasıTests";
+			productReference = D3BC40862893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3BC408F2893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BC40A02893C71D002FFFBA /* Build configuration list for PBXNativeTarget "UserDefaults Sayac UygulamasıUITests" */;
+			buildPhases = (
+				D3BC408C2893C71D002FFFBA /* Sources */,
+				D3BC408D2893C71D002FFFBA /* Frameworks */,
+				D3BC408E2893C71D002FFFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BC40922893C71D002FFFBA /* PBXTargetDependency */,
+			);
+			name = "UserDefaults Sayac UygulamasıUITests";
+			productName = "UserDefaults Sayac UygulamasıUITests";
+			productReference = D3BC40902893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3BC40682893C71A002FFFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D3BC406F2893C71A002FFFBA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D3BC40852893C71D002FFFBA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3BC406F2893C71A002FFFBA;
+					};
+					D3BC408F2893C71D002FFFBA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3BC406F2893C71A002FFFBA;
+					};
+				};
+			};
+			buildConfigurationList = D3BC406B2893C71A002FFFBA /* Build configuration list for PBXProject "UserDefaults Sayac Uygulaması" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3BC40672893C71A002FFFBA;
+			productRefGroup = D3BC40712893C71A002FFFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3BC406F2893C71A002FFFBA /* UserDefaults Sayac Uygulaması */,
+				D3BC40852893C71D002FFFBA /* UserDefaults Sayac UygulamasıTests */,
+				D3BC408F2893C71D002FFFBA /* UserDefaults Sayac UygulamasıUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3BC406E2893C71A002FFFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC40802893C71D002FFFBA /* LaunchScreen.storyboard in Resources */,
+				D3BC407D2893C71D002FFFBA /* Assets.xcassets in Resources */,
+				D3BC407B2893C71A002FFFBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC40842893C71D002FFFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC408E2893C71D002FFFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3BC406C2893C71A002FFFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC40782893C71A002FFFBA /* ViewController.swift in Sources */,
+				D3BC40742893C71A002FFFBA /* AppDelegate.swift in Sources */,
+				D3BC40762893C71A002FFFBA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC40822893C71D002FFFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC408B2893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC408C2893C71D002FFFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC40972893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITestsLaunchTests.swift in Sources */,
+				D3BC40952893C71D002FFFBA /* UserDefaults_Sayac_Uygulamas_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3BC40882893C71D002FFFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BC406F2893C71A002FFFBA /* UserDefaults Sayac Uygulaması */;
+			targetProxy = D3BC40872893C71D002FFFBA /* PBXContainerItemProxy */;
+		};
+		D3BC40922893C71D002FFFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BC406F2893C71A002FFFBA /* UserDefaults Sayac Uygulaması */;
+			targetProxy = D3BC40912893C71D002FFFBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3BC40792893C71A002FFFBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BC407A2893C71A002FFFBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3BC407E2893C71D002FFFBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BC407F2893C71D002FFFBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3BC40982893C71D002FFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3BC40992893C71D002FFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BC409B2893C71D002FFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UserDefaults Sayac Uygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.UserDefaults-Sayac-Uygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3BC409C2893C71D002FFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UserDefaults Sayac Uygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.UserDefaults-Sayac-Uygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3BC409E2893C71D002FFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.UserDefaults-Sayac-Uygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserDefaults Sayac Uygulaması.app/UserDefaults Sayac Uygulaması";
+			};
+			name = Debug;
+		};
+		D3BC409F2893C71D002FFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.UserDefaults-Sayac-Uygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserDefaults Sayac Uygulaması.app/UserDefaults Sayac Uygulaması";
+			};
+			name = Release;
+		};
+		D3BC40A12893C71D002FFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.UserDefaults-Sayac-Uygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UserDefaults Sayac Uygulaması";
+			};
+			name = Debug;
+		};
+		D3BC40A22893C71D002FFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.UserDefaults-Sayac-Uygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UserDefaults Sayac Uygulaması";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3BC406B2893C71A002FFFBA /* Build configuration list for PBXProject "UserDefaults Sayac Uygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC40982893C71D002FFFBA /* Debug */,
+				D3BC40992893C71D002FFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BC409A2893C71D002FFFBA /* Build configuration list for PBXNativeTarget "UserDefaults Sayac Uygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC409B2893C71D002FFFBA /* Debug */,
+				D3BC409C2893C71D002FFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BC409D2893C71D002FFFBA /* Build configuration list for PBXNativeTarget "UserDefaults Sayac UygulamasıTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC409E2893C71D002FFFBA /* Debug */,
+				D3BC409F2893C71D002FFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BC40A02893C71D002FFFBA /* Build configuration list for PBXNativeTarget "UserDefaults Sayac UygulamasıUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC40A12893C71D002FFFBA /* Debug */,
+				D3BC40A22893C71D002FFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3BC40682893C71A002FFFBA /* Project object */;
+}

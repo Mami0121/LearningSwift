@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36417B028A03D330066860A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36417AF28A03D330066860A /* AppDelegate.swift */; };
+		D36417B228A03D330066860A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36417B128A03D330066860A /* SceneDelegate.swift */; };
+		D36417B428A03D330066860A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36417B328A03D330066860A /* ViewController.swift */; };
+		D36417B728A03D330066860A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36417B528A03D330066860A /* Main.storyboard */; };
+		D36417B928A03D350066860A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36417B828A03D350066860A /* Assets.xcassets */; };
+		D36417BC28A03D350066860A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36417BA28A03D350066860A /* LaunchScreen.storyboard */; };
+		D36417C728A03D350066860A /* Map_Kit_Arama_s_lemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36417C628A03D350066860A /* Map_Kit_Arama_s_lemeTests.swift */; };
+		D36417D128A03D350066860A /* Map_Kit_Arama_s_lemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36417D028A03D350066860A /* Map_Kit_Arama_s_lemeUITests.swift */; };
+		D36417D328A03D350066860A /* Map_Kit_Arama_s_lemeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36417D228A03D350066860A /* Map_Kit_Arama_s_lemeUITestsLaunchTests.swift */; };
+		D36417E128A03D550066860A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36417E028A03D550066860A /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36417C328A03D350066860A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36417A428A03D330066860A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36417AB28A03D330066860A;
+			remoteInfo = "Map Kit Arama şleme";
+		};
+		D36417CD28A03D350066860A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36417A428A03D330066860A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36417AB28A03D330066860A;
+			remoteInfo = "Map Kit Arama şleme";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36417AC28A03D330066860A /* Map Kit Arama şleme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map Kit Arama şleme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36417AF28A03D330066860A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36417B128A03D330066860A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D36417B328A03D330066860A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36417B628A03D330066860A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36417B828A03D350066860A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36417BB28A03D350066860A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36417BD28A03D350066860A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36417C228A03D350066860A /* Map Kit Arama şlemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map Kit Arama şlemeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36417C628A03D350066860A /* Map_Kit_Arama_s_lemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Arama_s_lemeTests.swift; sourceTree = "<group>"; };
+		D36417CC28A03D350066860A /* Map Kit Arama şlemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map Kit Arama şlemeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36417D028A03D350066860A /* Map_Kit_Arama_s_lemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Arama_s_lemeUITests.swift; sourceTree = "<group>"; };
+		D36417D228A03D350066860A /* Map_Kit_Arama_s_lemeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Arama_s_lemeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D36417E028A03D550066860A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36417A928A03D330066860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36417E128A03D550066860A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36417BF28A03D350066860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36417C928A03D350066860A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36417A328A03D330066860A = {
+			isa = PBXGroup;
+			children = (
+				D36417AE28A03D330066860A /* Map Kit Arama şleme */,
+				D36417C528A03D350066860A /* Map Kit Arama şlemeTests */,
+				D36417CF28A03D350066860A /* Map Kit Arama şlemeUITests */,
+				D36417AD28A03D330066860A /* Products */,
+				D36417DF28A03D540066860A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D36417AD28A03D330066860A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36417AC28A03D330066860A /* Map Kit Arama şleme.app */,
+				D36417C228A03D350066860A /* Map Kit Arama şlemeTests.xctest */,
+				D36417CC28A03D350066860A /* Map Kit Arama şlemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36417AE28A03D330066860A /* Map Kit Arama şleme */ = {
+			isa = PBXGroup;
+			children = (
+				D36417AF28A03D330066860A /* AppDelegate.swift */,
+				D36417B128A03D330066860A /* SceneDelegate.swift */,
+				D36417B328A03D330066860A /* ViewController.swift */,
+				D36417B528A03D330066860A /* Main.storyboard */,
+				D36417B828A03D350066860A /* Assets.xcassets */,
+				D36417BA28A03D350066860A /* LaunchScreen.storyboard */,
+				D36417BD28A03D350066860A /* Info.plist */,
+			);
+			path = "Map Kit Arama şleme";
+			sourceTree = "<group>";
+		};
+		D36417C528A03D350066860A /* Map Kit Arama şlemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36417C628A03D350066860A /* Map_Kit_Arama_s_lemeTests.swift */,
+			);
+			path = "Map Kit Arama şlemeTests";
+			sourceTree = "<group>";
+		};
+		D36417CF28A03D350066860A /* Map Kit Arama şlemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36417D028A03D350066860A /* Map_Kit_Arama_s_lemeUITests.swift */,
+				D36417D228A03D350066860A /* Map_Kit_Arama_s_lemeUITestsLaunchTests.swift */,
+			);
+			path = "Map Kit Arama şlemeUITests";
+			sourceTree = "<group>";
+		};
+		D36417DF28A03D540066860A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36417E028A03D550066860A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36417AB28A03D330066860A /* Map Kit Arama şleme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36417D628A03D350066860A /* Build configuration list for PBXNativeTarget "Map Kit Arama şleme" */;
+			buildPhases = (
+				D36417A828A03D330066860A /* Sources */,
+				D36417A928A03D330066860A /* Frameworks */,
+				D36417AA28A03D330066860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Map Kit Arama şleme";
+			productName = "Map Kit Arama şleme";
+			productReference = D36417AC28A03D330066860A /* Map Kit Arama şleme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36417C128A03D350066860A /* Map Kit Arama şlemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36417D928A03D350066860A /* Build configuration list for PBXNativeTarget "Map Kit Arama şlemeTests" */;
+			buildPhases = (
+				D36417BE28A03D350066860A /* Sources */,
+				D36417BF28A03D350066860A /* Frameworks */,
+				D36417C028A03D350066860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36417C428A03D350066860A /* PBXTargetDependency */,
+			);
+			name = "Map Kit Arama şlemeTests";
+			productName = "Map Kit Arama şlemeTests";
+			productReference = D36417C228A03D350066860A /* Map Kit Arama şlemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36417CB28A03D350066860A /* Map Kit Arama şlemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36417DC28A03D350066860A /* Build configuration list for PBXNativeTarget "Map Kit Arama şlemeUITests" */;
+			buildPhases = (
+				D36417C828A03D350066860A /* Sources */,
+				D36417C928A03D350066860A /* Frameworks */,
+				D36417CA28A03D350066860A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36417CE28A03D350066860A /* PBXTargetDependency */,
+			);
+			name = "Map Kit Arama şlemeUITests";
+			productName = "Map Kit Arama şlemeUITests";
+			productReference = D36417CC28A03D350066860A /* Map Kit Arama şlemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36417A428A03D330066860A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D36417AB28A03D330066860A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D36417C128A03D350066860A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36417AB28A03D330066860A;
+					};
+					D36417CB28A03D350066860A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D36417AB28A03D330066860A;
+					};
+				};
+			};
+			buildConfigurationList = D36417A728A03D330066860A /* Build configuration list for PBXProject "Map Kit Arama şleme" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36417A328A03D330066860A;
+			productRefGroup = D36417AD28A03D330066860A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36417AB28A03D330066860A /* Map Kit Arama şleme */,
+				D36417C128A03D350066860A /* Map Kit Arama şlemeTests */,
+				D36417CB28A03D350066860A /* Map Kit Arama şlemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36417AA28A03D330066860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36417BC28A03D350066860A /* LaunchScreen.storyboard in Resources */,
+				D36417B928A03D350066860A /* Assets.xcassets in Resources */,
+				D36417B728A03D330066860A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36417C028A03D350066860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36417CA28A03D350066860A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36417A828A03D330066860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36417B428A03D330066860A /* ViewController.swift in Sources */,
+				D36417B028A03D330066860A /* AppDelegate.swift in Sources */,
+				D36417B228A03D330066860A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36417BE28A03D350066860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36417C728A03D350066860A /* Map_Kit_Arama_s_lemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36417C828A03D350066860A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36417D328A03D350066860A /* Map_Kit_Arama_s_lemeUITestsLaunchTests.swift in Sources */,
+				D36417D128A03D350066860A /* Map_Kit_Arama_s_lemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36417C428A03D350066860A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36417AB28A03D330066860A /* Map Kit Arama şleme */;
+			targetProxy = D36417C328A03D350066860A /* PBXContainerItemProxy */;
+		};
+		D36417CE28A03D350066860A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36417AB28A03D330066860A /* Map Kit Arama şleme */;
+			targetProxy = D36417CD28A03D350066860A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36417B528A03D330066860A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36417B628A03D330066860A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36417BA28A03D350066860A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36417BB28A03D350066860A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36417D428A03D350066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36417D528A03D350066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36417D728A03D350066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Map Kit Arama şleme/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Map-Kit-Arama-s-leme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36417D828A03D350066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Map Kit Arama şleme/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Map-Kit-Arama-s-leme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D36417DA28A03D350066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Map-Kit-Arama-s-lemeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Kit Arama şleme.app/Map Kit Arama şleme";
+			};
+			name = Debug;
+		};
+		D36417DB28A03D350066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Map-Kit-Arama-s-lemeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Kit Arama şleme.app/Map Kit Arama şleme";
+			};
+			name = Release;
+		};
+		D36417DD28A03D350066860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Map-Kit-Arama-s-lemeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Map Kit Arama şleme";
+			};
+			name = Debug;
+		};
+		D36417DE28A03D350066860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Map-Kit-Arama-s-lemeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Map Kit Arama şleme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36417A728A03D330066860A /* Build configuration list for PBXProject "Map Kit Arama şleme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36417D428A03D350066860A /* Debug */,
+				D36417D528A03D350066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36417D628A03D350066860A /* Build configuration list for PBXNativeTarget "Map Kit Arama şleme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36417D728A03D350066860A /* Debug */,
+				D36417D828A03D350066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36417D928A03D350066860A /* Build configuration list for PBXNativeTarget "Map Kit Arama şlemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36417DA28A03D350066860A /* Debug */,
+				D36417DB28A03D350066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36417DC28A03D350066860A /* Build configuration list for PBXNativeTarget "Map Kit Arama şlemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36417DD28A03D350066860A /* Debug */,
+				D36417DE28A03D350066860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36417A428A03D330066860A /* Project object */;
+}
